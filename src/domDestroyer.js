@@ -32,4 +32,4 @@ function toggle() {
     isOn ? disable() : enable();
 }
 
-module.exports = { toggle };
+module.exports = { toggle, enable, disable };
